@@ -21,22 +21,22 @@
 </head>
 <body>
 <!--Navigation bar including logo-->
-    <nav class="navbar navbar-expand-lg fixed-top fs-6 fw-bold" style="background-color: rgba(46,40,130,255);">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="images/logo2.jpg" width="60" height="60" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="images/logo2.jpg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center text-white">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="pages/about-us.html">About Us</a>
+                <a class="nav-link" href="pages/about-us.html">About Us</a>
               </li>              
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -53,19 +53,19 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="pages/fee.pdf">FEE</a>
+                <a class="nav-link" href="pages/fee.pdf">FEE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="pages/contact.html">Contact</a>
+                <a class="nav-link" href="pages/contact.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="pages/complaints.html">Complaints</a>
+                <a class="nav-link" href="pages/complaints.html">Complaints</a>
               </li>
               
               
             </ul>
             <form class="d-flex">
-                <a class="btn btn-outline-info text-white fw-bold" href="#contactme" role="button">Appointment</a>
+                <a class="btn btn-outline-info" href="#contactme" role="button">Appointment</a>
             </form>
           </div>
         </div>
@@ -73,17 +73,17 @@
 <!--End of Navigation bar-->
 
 <!--Image slider-> Carousel-->
-    <div style="background-color: rgba(168, 166, 166, 0.859); direction: rtl; border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ; height: 450px;">
+    <div style="background-color: rgba(46,40,130,255); direction: rtl; border-radius: 0% 100% 0% 100% / 54% 0% 100% 46% ; height: 450px;">
         
-        <div id="carouselExampleCaptions" class="carousel slide align-items-end" data-bs-ride="carousel" style="width: 80vh; margin-top: 86PX;">
+        <div id="carouselExampleCaptions" class="carousel slide align-items-end" data-bs-ride="carousel" style="width: 80vh; margin-top: 86PX; padding-top: 50px;">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner" style=" border-radius: 61% 39% 49% 51% / 21% 69% 31% 79% ;">
+            <div class="carousel-inner" style=" border-radius: 61% 39% 49% 51% / 21% 69% 31% 79%;">
                 <div class="carousel-item active">
-                <img src="images/img6.jpg" class="d-block w-100" alt="...">
+                    <img src="images/img6.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -418,7 +418,7 @@
                 <textarea class="form-control" name="Message" id="comments" rows="10" required></textarea>
             </div>
             <div class="col-md-12 d-grid justify-content-md-end">
-                <button type="submit" class="btn btn-danger">Submit</button>
+                <button type="submit" class="btn btn-info">Submit</button>
             </div>
         </form>
     </div>
