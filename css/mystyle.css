@@ -15,6 +15,9 @@
     color: white;
 }
 
+.navbar .dropdown-menu li a {
+    color: black;
+}
 .d-flex a {
     font-weight: bold;
     color: white;
@@ -33,6 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #middle-page1 {
     text-align: center;
+}
+.img-box1 img {
+    border-radius: 40%;
 }
 .content-box1 a {
     text-decoration: none;
@@ -195,7 +201,7 @@ ul {
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgb(205, 5, 175);
     margin: 0 5px 5px 0;
     text-align: center;
     line-height: 30px;
