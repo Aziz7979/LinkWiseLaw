@@ -6,6 +6,7 @@
     font-weight: bold;
     font-size: 16px;
 }
+
 .navbar-brand img {
     width: 60px;
     height: 60px;
@@ -23,9 +24,51 @@
     color: white;
 }
 
-#carouselExampleCaptions {
-    margin-top: -0.8%;
+.image_slider {
+    margin-top: .6rem;
 }
+@media (max-width: 800px) {
+    .image_slider {
+        margin-top: 4rem;
+    }
+}
+
+#carouselExampleCaptions {
+    margin-top: %;
+}
+.catch-line {
+    margin-top: -21rem;
+    margin-bottom: 12rem;
+    color: lightgoldenrodyellow;    
+}
+.line-1 {
+    font-size: 3.5rem;
+}
+.line-2 {
+    font-size: 1.2rem;
+}
+@media (max-width: 800px) {
+    .catch-line {
+        margin-bottom: 10%;
+        margin-top: -6.5rem;
+        margin-left: 2rem;
+        box-sizing: content-box;
+        width: 10rem;
+        height: 5rem;
+        text-align: left;
+    }    
+}
+@media (max-width: 800px) {
+    .line-1 {
+        font-size: 80%;
+        text-align: left
+        margin-left: ;
+    }
+    .line-2 {
+        font-size: 50%;
+    }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-variant: small-caps;
@@ -50,29 +93,18 @@ h1, h2, h3, h4, h5, h6 {
 .col-lg-4 .md-6 .fst-italic {
     margin-bottom: 50px;
 }
-.our-team {
-    height: 300px;    
-    margin-top: 50px;  
-}
-.our-team a {
-    text-decoration: none;
-          
-}
+
 .mt-5 {
     border: 5px solid rgba(46,40,130,255);
 }
-.accredition {
-    background-color:;
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    
-    border-bottom: 5px solid rgba(46,40,130,255);        
+.row .accredition {
+   
 }
 h2 {
     text-align: center;
+}
+#contactme {
+    margin-top: 3rem;
 }
 .list {
 }
@@ -155,7 +187,7 @@ ul {
 .footer-col p {
     font-size: 14px;
     color: #ffffff;
-    text-transform: capitalize;    
+    text-transform: ;    
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;

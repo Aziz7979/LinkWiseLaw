@@ -1,1 +1,1 @@
-document.getElementsByClassName("img").item = 
+document.getElementById("email_add").innerHTML = "Tel: 02034111507 <br> Email: info@linkwiselaw.co.uk";
