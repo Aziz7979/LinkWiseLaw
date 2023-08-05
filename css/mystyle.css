@@ -25,7 +25,7 @@
 }
 
 .image_slider {
-    margin-top: .6rem;
+    margin-top: 1.7rem;
 }
 @media (max-width: 800px) {
     .image_slider {
@@ -34,7 +34,7 @@
 }
 
 #carouselExampleCaptions {
-    margin-top: %;
+    margin-top: -5%;
 }
 .catch-line {
     margin-top: -21rem;
